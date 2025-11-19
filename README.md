@@ -5,7 +5,7 @@ Command-line access to ChatGPT on macOS via a Shortcuts workflow.
 ## Install
 
 ```bash
-brew tap paolofulgoni/simple-chatgpt
+brew tap paolofulgoni/simple-chatgpt https://github.com/paolofulgoni/simple-chatgpt
 # Until a release is tagged, install from HEAD:
 brew install --HEAD paolofulgoni/simple-chatgpt/simple-chatgpt
 # Import the Shortcut into the Shortcuts app:
