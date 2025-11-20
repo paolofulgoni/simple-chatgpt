@@ -9,7 +9,7 @@ usage() {
 Usage:
   $(basename "$0") "your question"
   $(basename "$0") -f INPUT_FILE
-  $(basename "$0") "your question" -o OUTPUT_FILE
+  $(basename "$0") -o OUTPUT_FILE "your question"
   $(basename "$0") -f INPUT_FILE -o OUTPUT_FILE
 
 Options:

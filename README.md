@@ -31,7 +31,7 @@ simple-chatgpt -f prompt.txt
 Write the answer to a file:
 
 ```bash
-simple-chatgpt "What does 'anolini' mean?" -o answer.txt
+simple-chatgpt -o answer.txt "What does 'anolini' mean?"
 ```
 
 Get help:
