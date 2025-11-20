@@ -1,6 +1,8 @@
 # simple-chatgpt
 
-Command-line access to ChatGPT on macOS via a Shortcuts workflow.
+Simple command-line tool to use ChatGPT Desktop from your Mac terminal.
+
+Behind the scenes it forwards your input to a macOS Shortcut included with the install. No OpenAI API key required.
 
 ## Install
 
@@ -12,7 +14,11 @@ brew install --HEAD paolofulgoni/simple-chatgpt/simple-chatgpt
 open "$(brew --prefix)/share/simple-chatgpt/simple-chatgpt.shortcut"
 ```
 
-On first run, Shortcuts will ask something like “Allow ‘simple-chatgpt’ to share 1 text item with ‘ChatGPT’?”. Click **Always Allow**.
+Requires ChatGPT Desktop to be installed on your Mac.
+
+On first run, Shortcuts will ask to “Allow ‘simple-chatgpt’ to share 1 text item with ‘ChatGPT’?”. Click **Always Allow**.
+
+The included Shortcut uses the standard “Run ChatGPT” action shipped with the ChatGPT Desktop app: no hacks or custom integrations.
 
 ## Use
 
@@ -39,3 +45,7 @@ Get help:
 ```bash
 simple-chatgpt -h
 ```
+
+## Disclaimer
+
+ChatGPT is a product and trademark of OpenAI. This utility is not affiliated with or endorsed by OpenAI.

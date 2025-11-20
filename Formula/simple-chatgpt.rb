@@ -1,5 +1,5 @@
 class SimpleChatgpt < Formula
-  desc "Simple macOS command-line access to ChatGPT using Shortcuts"
+  desc "Simple command-line tool to use ChatGPT Desktop from your Mac terminal"
   homepage "https://github.com/paolofulgoni/simple-chatgpt"
   license "MIT"
   head "https://github.com/paolofulgoni/simple-chatgpt.git", branch: "main"
